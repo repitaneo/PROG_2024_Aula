@@ -19,6 +19,10 @@ public class Alumno {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
+	@Override
+	public String toString() {
+		return "A [" + nombre + " - " + edad + "]";
+	}
 	
 	
 	
